@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>fish</title>
+<title>建了一个博客站点 | fish</title>
 <meta name="description" content="">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -11,6 +11,12 @@
 <link rel="shortcut icon" href="https://gentleming.github.io/favicon.ico">
 <link rel="stylesheet" href="https://gentleming.github.io/styles/main.css">
 
+
+  
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css" />
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -75,52 +81,40 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://gentleming.github.io/post/SkNneSc9d">
-                  <h2 class="post-title">建了一个博客站点</h2>
-                </a>
-                <div class="post-date">
-                  2019-04-17
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
+          <div class="post-detail">
+            <h2 class="post-title">建了一个博客站点</h2>
+            <div class="post-date">2019-04-17</div>
+            
+              <div class="feature-container" style="background-image: url('https://raw.githubusercontent.com/getgridea/gridea/develop/gridea-app.png')">
               </div>
-              
-                <a class="right" href="https://gentleming.github.io/post/SkNneSc9d">
-                  <div class="feature-container" style="background-image: url('https://raw.githubusercontent.com/getgridea/gridea/develop/gridea-app.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://gentleming.github.io/post/hello-hve-notes">
-                  <h2 class="post-title">Hello Hve Notes</h2>
-                </a>
-                <div class="post-date">
-                  2018-12-12
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-                <a class="right" href="https://gentleming.github.io/post/hello-hve-notes">
-                  <div class="feature-container" style="background-image: url('https://gentleming.github.io/post-images/hello-hve-notes.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
+            
+            <div class="post-content">
+              <p>花了点时间，在全球最大的同性交友网站 Github 上，用 Pages 服务建立一个静态博客站点。又花了几十块 RMB 在 Godaddy 上买了域名 <a href="www.gentleming.me">gentleming.me</a>，算是搭建了一个小博客网站。</p>
+<p>其实几年我用 Hexo 在 Github 上建过一个博客，当时买了域名 gentleming.com，嗯，当时这个域名没有被人注册，现在只能从域名商购买了，价格不划算，而且 .me 的域名也挺酷的，所以这次就用 <a href="www.gentleming.me">gentleming.me</a>了。</p>
+<p>上次搭了博客，就搁置在那，没写几篇文章，最后就没有最后了。这次重新建博客是因为发现了 <a href="https://gridea.dev/">Gridea</a>，这是一个可以在 Mac 或 Windows 上同步 Github Pages 的博客管理、写作工具，使用下来我觉得非常好用 👍，简单方便，设计又好看，于是乎重新点燃了我写博客的激情，ok，那么就希望这次能坚持下去吧。</p>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://gentleming.github.io/post/hello-hve-notes">
+                  <h3 class="post-title">
+                    Hello Hve Notes
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+
+              
+                <div id="disqus_thread" data-aos="fade-in"></div>
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -142,6 +136,26 @@ var app = new Vue({
 })
 
 </script>
+
+
+  
+  
+
+  
+    <script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
+    <script>
+
+    var options = {
+      shortname: 'gentleming-me',
+      apikey: 'zDPel5K6ufmqWZ27eheKTFr2FmSDEDVIIFzYrhCNrl03LBwtfNcKhTOrLM1FCFUZ',
+    }
+    if ('') {
+      options.api = ''
+    }
+    var dsqjs = new DisqusJS(options)
+
+    </script>
+  
 
 
 
