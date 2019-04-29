@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>我是如何使用 Notion 的 | fish</title>
+<meta name="description" content="每天自己冲咖啡，偶尔写点代码的产品经理。">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="shortcut icon" href="https://gentleming.github.io/favicon.ico">
+<link rel="stylesheet" href="https://gentleming.github.io/styles/main.css">
+
+
+  
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css" />
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://gentleming.github.io">
+        <img src="https://gentleming.github.io/images/avatar.png" class="site-logo">
+        <h1 class="site-title">fish</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="site-description">
+      每天自己冲咖啡，偶尔写点代码的产品经理。
+    </div>
+    <div class="site-footer">
+      Powered by Gridea
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">我是如何使用 Notion 的</h2>
+            <div class="post-date">2019-04-29</div>
+            
+              <div class="feature-container" style="background-image: url('https://gentleming.github.io/post-images/d1JJ95e1W.png')">
+              </div>
+            
+            <div class="post-content">
+              <p>2018 年我开始把 Notion 做为我日常工作、学习和生活的主力记录工具，我认为 Notion 是 2018 带给我惊喜最多的产品之一，下面是使用 Notion 这么久之后的一些看法观点和使用心得。</p>
+<p>我认为 Notion 相对其它笔记工具有这么几点特色：</p>
+<ol>
+<li>
+<p><strong>Internet 而不是文件夹</strong></p>
+<p>和传统的笔记工具普遍采用的文件夹 - 文档的结构模式不同，Notion 没有文件夹的概念，它只有一个个文档，每个文档其实就是一个 Web Page，它们都有自己独立的 Page URL，每个 Page 可以链接到任何一个其它的 Page，所以 Notion 其实本质上是一个专属的 Internet 而不是传统意义上的文档仓库。</p>
+<p>传统的笔记工具，通常左边是树状文件夹结构，右边是文档文件，这样的目录结构看似挺清晰，但是太低效。低效体现在两方面，首先目录层级通常有限，层级过多呢使用起来很麻烦，层级太浅呢又不利于文档精确归类。另一方面，文档之间不能随意跳转，太不自由，文档相互割裂就限制了做为工具的可扩展性。而基于网页超链接形式构成的 Notion，是没有层级限制的，我们完全可以基于此打造一个自己或是团队的 wiki 系统。</p>
+</li>
+<li>
+<p><strong>强大的扩展性和编辑体验</strong></p>
+<p>Notion 文档里是由一个个 Block构成的（我把它称之为类似乐高一样的小砖块），Block 可以是标题、是正文、是 To-do List、是一串程序代码，或者是一个图片、内嵌网页、视频、音频文件等，Block 还可以是日历，表格，内嵌的数据库，Google Maps，设计稿...</p>
+<p>每一个 Block 其实对应就是网页文件里的一个 div 标签，组合在一起成了一个完整 HTML 页面，所以我们在编辑文档的时候其实就是在做一个网页，这使得 Notion 的内容丰富性非常强大，我们除了写写文章做做笔记之外，还可以用它来做项目进度表，做团队开发看板，旅行筹备计划，记录家庭开支，代码片段收集，观影清单、读书笔记等等。</p>
+<p>仅仅是这些我觉得还不够强大，更强大的是这种 Block 的设计，对 Block 进行复制、粘贴、互相转换，拖拽移动，简直就像是在搭积木一样轻松自如，文档的编辑体验异常高效。</p>
+</li>
+<li>
+<p><strong>灵活的协作机制</strong></p>
+<p>Notion 天生就是为协作而来，有着非常灵活的协作机制，Notion 里有两个仓库，一个是 Workspace 一个是 Private，三种用户角色：管理员 Admin、普通 Member 和访客 Guest，四种操作权限：可阅读、可阅读和评论、可编辑、可编辑和可分享。</p>
+<p>通过这些权限、角色的控制，任何一个文档，不管是哪个仓库下的，既可以开放到互联网上让人阅读和发表评论，也可以仅限 Workspace 下的 Member 查看、评论、一起编辑，还可以指定给某个人进行访问和协作，只需要邀请对方成为 Guest 就行了。</p>
+</li>
+</ol>
+<p>说到这可能你会觉得这些 Notion 能做的事情，别的软件也能做到，比如我们可以用 Typora 或是熊掌记写文章，用 Quip 做笔记，用 Trello 管理项目，用 SnippetsLab 收集代码片段，用 MoneyPro 记账，用 Airtable 做数据库，等等……而且人家可能做得会更专业化。</p>
+<p>我是这么认为的，如果你厌倦了在各个软件里切换来切换去的找东西，如果你觉得需要一款产品尽可能的把所有的东西记录在一起的话，那么就试试 Notion 吧，可能真的没有别的更好的选择了，至少到目前为止我还没有发现，可能 Coda 未来有这个趋势，不过它现在只有 Web 端，暂不考虑。况且市面上其它产品都不能像 Notion 一样把所有信息像网页一样组织在一起，这种方式来带的高效我想是不言而喻的。</p>
+<p>那么是不是有了 Notion 我就完全抛开了其它产品呢？也不是，至少目前还不行。我从去年开始逐步把以前在 Quip、Google Docs、石墨文档等平台的数据渐渐迁移到 Notion，但是有些东西没法迁移，比如一些大的表格文档，Notion 的表格做的还比较基础，当然本身定位就不是要满足办公表格的需求。</p>
+<p>前阵子我和老婆在 Notion 里面共同完成了婚礼和蜜月计划的准备，我们在一起往里面添加 To-do List，贴上从 Pinterest 上找到的婚礼布置图片，蜜月之旅的目的地和行程安排，游记信息，交通信息，飞行计划，预算开支，购物清单，行李清单等等，Notion 的协作功能让这种事务不再只是某个人的工作，而是两个人可以一起更加高效方便地完成哦。</p>
+<p><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c6476e88-35ee-40fd-99ea-18a34cd07ff1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT73L2G45FATA5UTS%2F20190429%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20190429T020207Z&amp;X-Amz-Expires=86400&amp;X-Amz-Security-Token=AgoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJHMEUCIEk2jJDFX%2BFHjo8aZ19zY5r2FWl37wj6Hbe3SSBw0HLTAiEAjPtdvplj4HpAPbrXzlehyxwwU6YyG%2BlwVhM7W%2BHCnRcq2gMIUhAAGgwyNzQ1NjcxNDkzNzAiDAMCnmoiUtAZHnkUHSq3A7x5Ro6qsdF7LtkP4VAn9mepwL%2BK%2FTDZ1ICrLiWAFAJiu75sKVlOrJTwet5jkCN4rhPOw%2FESwzbdHqvsbfLt7DqKFU4mumVUYldrM3pqJNanWfiK7JomZBz4VQk0mmYy0bi5LCprmnpClrAO1Iy4CJlGtUEXheRyuyFqoYaDmhVBY5qFkJiCggzt3kAuay8RD8naW5B4fCO%2BGQM%2F2KEibyh9dqTikx1H5%2FFhRjRD1cuYV8lQVJNI4vWHlDm64MZ0WJGGSCb3jkEdvpRErYjKrhdxEtAIotQittodHVlhkw%2FEb0ZaCacfjnN0MrhaQ47XodzC12xohK8F57tQ%2FhWanS9Uk3%2FM27A%2FVqDrjyyWLmOyip7njOagLp2dX5ZUzdZBQtsrxn%2BXcO4sjfh7Q9XXrcDGnopwbVx4r3bVzlpNf1yQGZjQN2LbCTrVnYLpzAvReA6gtXyHmd2h3FKK7Jpz8u9nzoz4%2FZrJJUJZoO5mfqDJCyDLjHKtkQX6wZyDxPVkrnZkaIQpKWe%2FxG59fo9aFlMlZkNdZ%2FTvIoV%2Fi4PhV%2BK97aurh9A%2FCebq2itcQQe2tH3G81A8IJ0wi5qZ5gU6tAGXb1eX43r%2BYlIHRMBirmr0MF%2BSPrwOv0g9HdprsArESWgngikmmrK2RymGEaT7Re%2FIGEMapkP7QOT%2BNVNRwWGtWRSLY5NgFBU6gZEBTcJ91mHGST3pYbhcdeoyAe8oPc6kJJ1Pt9JOZoovD8qiriARUE62wK3WSEmy7tvZUs%2FGnvA5LQGNyHfargeaYEzcjyi7kWQFPJjYHlfsVfLZonG9c%2B9pCwmeOT8cqaoh6Y3sAQznwHs%3D&amp;X-Amz-Signature=bc4509977d68019f2959b277cf393e857758d696d9c2a937e736f344421dd2dd&amp;X-Amz-SignedHeaders=host&amp;response-content-disposition=filename%20%3D%22Untitled.png%22" alt=""></p>
+<h1 id="邀请奖励">邀请奖励</h1>
+<p>目前 Notion 是支持免费使用的，但是免费计划限制了 1000 个 Blocks，如果做为主力记录工具的话，可能很快就用完了，我现在使用的是个人版按年订阅计划，$48 一年，如果按月付费则是 $5 一月。团队版是每月每个人 $8，团队版和个人版区别就是团队版可以添加 Member，个人版只能你自个儿玩，但是不限制你添加访客。</p>
+<p>如果我的这篇文章对你有帮助，你可以考虑使用我的注册邀请链接，这样你将会获得 $10 的现金奖励，可用于订阅付费计划，与此同时我也将会获得 $5 的奖励，谢谢你。</p>
+<p><a href="https://www.notion.so/?r=21704c78732642cc81cba14670db77d9">https://www.notion.so/?r=21704c78732642cc81cba14670db77d9</a></p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://gentleming.github.io/post/SkNneSc9d">
+                  <h3 class="post-title">
+                    又建了一个博客站点
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+
+              
+                <div id="disqus_thread" data-aos="fade-in"></div>
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  
+  
+
+  
+    <script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
+    <script>
+
+    var options = {
+      shortname: 'gentleming-me',
+      apikey: 'zDPel5K6ufmqWZ27eheKTFr2FmSDEDVIIFzYrhCNrl03LBwtfNcKhTOrLM1FCFUZ',
+    }
+    if ('') {
+      options.api = ''
+    }
+    var dsqjs = new DisqusJS(options)
+
+    </script>
+  
+
+
+
+
+  </body>
+</html>
