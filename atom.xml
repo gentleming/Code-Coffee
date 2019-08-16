@@ -1,95 +1,22 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" >
-
-<title>我是如何使用 Notion 的 | fish</title>
-<meta name="description" content="每天亲手冲咖啡，偶尔也亲手写点代码的产品经理。">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="shortcut icon" href="https://gentleming.github.io/favicon.ico">
-<link rel="stylesheet" href="https://gentleming.github.io/styles/main.css">
-
-
-  
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css" />
-  
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://gentleming.github.io">
-        <img src="https://gentleming.github.io/images/avatar.png" class="site-logo">
-        <h1 class="site-title">fish</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="site-description">
-      每天亲手冲咖啡，偶尔也亲手写点代码的产品经理。
-    </div>
-    <div class="site-footer">
-      Powered by Gridea
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">我是如何使用 Notion 的</h2>
-            <div class="post-date">2019-04-29</div>
-            
-              <div class="feature-container" style="background-image: url('https://i.loli.net/2019/08/16/Xqj7nzxSElOi31P.jpg')">
-              </div>
-            
-            <div class="post-content">
-              <p>2018 年我开始把 Notion 做为我日常工作、学习和生活的主力记录工具，我认为 Notion 是 2018 带给我惊喜最多的产品之一，下面是使用 Notion 这么久之后的一些看法观点和使用心得。</p>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://gentleming.github.io</id>
+    <title>fish</title>
+    <updated>2019-08-16T00:47:45.800Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://gentleming.github.io"/>
+    <link rel="self" href="https://gentleming.github.io/atom.xml"/>
+    <subtitle>每天亲手冲咖啡，偶尔也亲手写点代码的产品经理。</subtitle>
+    <logo>https://gentleming.github.io/images/avatar.png</logo>
+    <icon>https://gentleming.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2019, fish</rights>
+    <entry>
+        <title type="html"><![CDATA[我是如何使用 Notion 的]]></title>
+        <id>https://gentleming.github.io/post/d1JJ95e1W</id>
+        <link href="https://gentleming.github.io/post/d1JJ95e1W">
+        </link>
+        <updated>2019-04-29T02:05:54.000Z</updated>
+        <content type="html"><![CDATA[<p>2018 年我开始把 Notion 做为我日常工作、学习和生活的主力记录工具，我认为 Notion 是 2018 带给我惊喜最多的产品之一，下面是使用 Notion 这么久之后的一些看法观点和使用心得。</p>
 <p>我认为 Notion 相对其它笔记工具有这么几点特色：</p>
 <ol>
 <li>
@@ -118,89 +45,19 @@
 <p>目前 Notion 是支持免费使用的，但是免费计划限制了 1000 个 Blocks，如果做为主力记录工具的话，可能很快就用完了，我现在使用的是个人版按年订阅计划，$48 一年，如果按月付费则是 $5 一月。团队版是每月每个人 $8，团队版和个人版区别就是团队版可以添加 Member，个人版只能你自个儿玩，但是不限制你添加访客。</p>
 <p>如果我的这篇文章对你有帮助，你可以考虑使用我的注册邀请链接，这样你将会获得 $10 的现金奖励，可用于订阅付费计划，与此同时我也将会获得 $5 的奖励，谢谢你。</p>
 <p><a href="https://www.notion.so/?r=21704c78732642cc81cba14670db77d9">https://www.notion.so/?r=21704c78732642cc81cba14670db77d9</a></p>
-
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://gentleming.github.io/tag/NKs2A0mfn" class="tag">
-                    App
-                  </a>
-                
-                  <a href="https://gentleming.github.io/tag/nkTViCvLU" class="tag">
-                    产品经理
-                  </a>
-                
-                  <a href="https://gentleming.github.io/tag/Z0P7HMJe6" class="tag">
-                    生活日常
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://gentleming.github.io/post/SkNneSc9d">
-                  <h3 class="post-title">
-                    又建了一个博客站点
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-
-              
-                <div id="disqus_thread" data-aos="fade-in"></div>
-              
-            
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-  
-  
-
-  
-    <script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
-    <script>
-
-    var options = {
-      shortname: 'gentleming-me',
-      apikey: 'zDPel5K6ufmqWZ27eheKTFr2FmSDEDVIIFzYrhCNrl03LBwtfNcKhTOrLM1FCFUZ',
-    }
-    if ('') {
-      options.api = ''
-    }
-    var dsqjs = new DisqusJS(options)
-
-    </script>
-  
-
-
-
-
-  </body>
-</html>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[又建了一个博客站点]]></title>
+        <id>https://gentleming.github.io/post/SkNneSc9d</id>
+        <link href="https://gentleming.github.io/post/SkNneSc9d">
+        </link>
+        <updated>2019-04-17T12:25:37.000Z</updated>
+        <content type="html"><![CDATA[<p>花了点时间，在全球最大的同性交友网站 Github 上，用 Pages 服务建立一个静态博客站点。又花了几十块 RMB 在 Godaddy 上买了域名 <a href="www.gentleming.me">gentleming.me</a>，算是搭建了一个小博客网站。</p>
+<p>为什么要说又呢？</p>
+<p>其实几年我用 Hexo 在 Github 上建过一个博客，当时买了域名 gentleming.com，嗯，当时这个域名没有被人注册，现在只能从域名商购买了，价格不划算，而且 .me 的域名也挺酷的，所以这次就用 <a href="www.gentleming.me">gentleming.me</a>了。</p>
+<p>上次搭了博客，就搁置在那，没写几篇文章，最后就没有最后了。这次重新建博客是因为发现了 <a href="https://gridea.dev/">Gridea</a>，这是一个可以在 Mac 或 Windows 上同步 Github Pages 的博客管理、写作工具，使用下来我觉得非常好用 👍，简单方便，设计又好看，于是乎重新点燃了我写博客的激情，ok，那么就希望这次能坚持下去吧。</p>
+<p>封面图是 Gridea 的截图，感兴趣的同学可以去用用看，免费的。</p>
+]]></content>
+    </entry>
+</feed>
