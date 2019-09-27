@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" >
 
-<title>关于 | fish</title>
-<meta name="description" content="每天亲手冲咖啡，偶尔也亲手写点代码的产品经理。">
+<title>关于 | Y-Coffee</title>
+<meta name="description" content="互联网人">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -13,9 +13,9 @@
 
 
   
-
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
   
-    <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css" />
+
   
 
 
@@ -34,7 +34,7 @@
     <div class="top-header-container">
       <a class="site-title-container" href="https://gentleming.github.io">
         <img src="https://gentleming.github.io/images/avatar.png" class="site-logo">
-        <h1 class="site-title">fish</h1>
+        <h1 class="site-title">Y-Coffee</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
         <div class="line"></div>
@@ -70,7 +70,7 @@
   </div>
   <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
     <div class="site-description">
-      每天亲手冲咖啡，偶尔也亲手写点代码的产品经理。
+      互联网人
     </div>
     <div class="site-footer">
       Powered by Gridea
@@ -86,7 +86,7 @@
             <div class="post-date">2019-01-25</div>
             
             <div class="post-content">
-              <p><img src="https://images.unsplash.com/photo-1518966377293-74c63a1ec149?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt=""></p>
+              <figure data-type="image" tabindex="1"><img src="https://images.unsplash.com/photo-1518966377293-74c63a1ec149?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt=""></figure>
 <p>我是 fish，坐标魔都，互联网产品经理，目前从事金融行业。</p>
 <p>Python 爱好者 / 咖啡重度成瘾者 / 伪健身人士</p>
 <p>可以通过以下方式找到我：</p>
@@ -99,9 +99,9 @@
 
             
               
-
+                <div id="gitalk-container" data-aos="fade-in"></div>
               
-                <div id="disqus_thread" data-aos="fade-in"></div>
+
               
             
 
@@ -131,21 +131,24 @@ var app = new Vue({
 
   
   
-
-  
-    <script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     <script>
 
-    var options = {
-      shortname: 'gentleming-me',
-      apikey: 'zDPel5K6ufmqWZ27eheKTFr2FmSDEDVIIFzYrhCNrl03LBwtfNcKhTOrLM1FCFUZ',
-    }
-    if ('') {
-      options.api = ''
-    }
-    var dsqjs = new DisqusJS(options)
+      var gitalk = new Gitalk({
+        clientID: 'https://gentleming.github.io',
+        clientSecret: '8fb8ddd3405a7fe2dd370a24d9653845a398fb07',
+        repo: 'gentleming.github.io',
+        owner: 'gentleming',
+        admin: ['gentleming'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
 
     </script>
+  
+
   
 
 
