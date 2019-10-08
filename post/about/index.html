@@ -1,12 +1,15 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>关于 | Y-Coffee</title>
 <meta name="description" content="咖啡爱好者">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="shortcut icon" href="https://gentleming.github.io/Y-coffee-Gridea//favicon.ico">
 <link rel="stylesheet" href="https://gentleming.github.io/Y-coffee-Gridea//styles/main.css">
@@ -22,100 +25,98 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
 
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://gentleming.github.io/Y-coffee-Gridea/">
-        <img src="https://gentleming.github.io/Y-coffee-Gridea//images/avatar.png" class="site-logo">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://gentleming.github.io/Y-coffee-Gridea/">
+        <img class="avatar" src="https://gentleming.github.io/Y-coffee-Gridea//images/avatar.png" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://gentleming.github.io/Y-coffee-Gridea/">
         <h1 class="site-title">Y-Coffee</h1>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="/" class="site-nav">
+          <a href="/" class="menu purple-link">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/archives" class="menu purple-link">
             归档
           </a>
         
       
         
-          <a href="/tags" class="site-nav">
+          <a href="/tags" class="menu purple-link">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="/post/about" class="menu purple-link">
             关于
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="site-description">
-      咖啡爱好者
-    </div>
-    <div class="site-footer">
-      Powered by Gridea
-    </div>
-  </div>
-</div>
+</transition>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">关于</h2>
-            <div class="post-date">2019-01-25</div>
+      <div class="content-container">
+        <div class="post-detail">
+          <h2 class="post-title">关于</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-01-25</span>
             
-            <div class="post-content">
-              <figure data-type="image" tabindex="1"><img src="https://images.unsplash.com/photo-1518966377293-74c63a1ec149?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt=""></figure>
+          </div>
+          <div class="post-content">
+            <figure data-type="image" tabindex="1"><img src="https://images.unsplash.com/photo-1518966377293-74c63a1ec149?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt=""></figure>
 <p>我是 fish，坐标魔都，互联网产品经理，目前从事金融行业。</p>
 <p>Python 爱好者 / 咖啡重度成瘾者 / 伪健身人士</p>
 <p>可以通过以下方式找到我：</p>
 <p><a href="https://twitter.com/gentleming">Twitter</a></p>
 <p><a href="mailto:yumingyyy@gmail.com">yumingyyy@gmail.com</a></p>
 
-            </div>
-            
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
           </div>
-
         </div>
+
+        
       </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">咖啡爱好者</div>
+  Powered by Gridea
+</div>
+
+
     </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
