@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gentleming.github.io/Y-coffee</id>
     <title>Y Coffee</title>
-    <updated>2019-10-08T07:01:06.965Z</updated>
+    <updated>2019-10-08T07:14:22.221Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gentleming.github.io/Y-coffee"/>
     <link rel="self" href="https://gentleming.github.io/Y-coffee/atom.xml"/>
@@ -16,37 +16,6 @@
         <link href="https://gentleming.github.io/Y-coffee/post/d1JJ95e1W">
         </link>
         <updated>2019-04-29T02:05:54.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2019/08/16/Xqj7nzxSElOi31P.jpg" alt=""></figure>
-<p>2018 年我开始把 Notion 做为我日常工作、学习和生活的主力记录工具，我认为 Notion 是 2018 带给我惊喜最多的产品之一，下面是使用 Notion 这么久之后的一些看法观点和使用心得。</p>
-<p>我认为 Notion 相对其它笔记工具有这么几点特色：</p>
-<ol>
-<li>
-<p><strong>Internet 而不是文件夹</strong></p>
-<p>和传统的笔记工具普遍采用的文件夹 - 文档的结构模式不同，Notion 没有文件夹的概念，它只有一个个文档，每个文档其实就是一个 Web Page，它们都有自己独立的 Page URL，每个 Page 可以链接到任何一个其它的 Page，所以 Notion 其实本质上是一个专属的 Internet 而不是传统意义上的文档仓库。</p>
-<p>传统的笔记工具，通常左边是树状文件夹结构，右边是文档文件，这样的目录结构看似挺清晰，但是太低效。低效体现在两方面，首先目录层级通常有限，层级过多呢使用起来很麻烦，层级太浅呢又不利于文档精确归类。另一方面，文档之间不能随意跳转，太不自由，文档相互割裂就限制了做为工具的可扩展性。而基于网页超链接形式构成的 Notion，是没有层级限制的，我们完全可以基于此打造一个自己或是团队的 wiki 系统。</p>
-</li>
-<li>
-<p><strong>强大的扩展性和编辑体验</strong></p>
-<p>Notion 文档里是由一个个 Block构成的（我把它称之为类似乐高一样的小砖块），Block 可以是标题、是正文、是 To-do List、是一串程序代码，或者是一个图片、内嵌网页、视频、音频文件等，Block 还可以是日历，表格，内嵌的数据库，Google Maps，设计稿...</p>
-<p>每一个 Block 其实对应就是网页文件里的一个 div 标签，组合在一起成了一个完整 HTML 页面，所以我们在编辑文档的时候其实就是在做一个网页，这使得 Notion 的内容丰富性非常强大，我们除了写写文章做做笔记之外，还可以用它来做项目进度表，做团队开发看板，旅行筹备计划，记录家庭开支，代码片段收集，观影清单、读书笔记等等。</p>
-<p>仅仅是这些我觉得还不够强大，更强大的是这种 Block 的设计，对 Block 进行复制、粘贴、互相转换，拖拽移动，简直就像是在搭积木一样轻松自如，文档的编辑体验异常高效。</p>
-</li>
-<li>
-<p><strong>灵活的协作机制</strong></p>
-<p>Notion 天生就是为协作而来，有着非常灵活的协作机制，Notion 里有两个仓库，一个是 Workspace 一个是 Private，三种用户角色：管理员 Admin、普通 Member 和访客 Guest，四种操作权限：可阅读、可阅读和评论、可编辑、可编辑和可分享。</p>
-<p>通过这些权限、角色的控制，任何一个文档，不管是哪个仓库下的，既可以开放到互联网上让人阅读和发表评论，也可以仅限 Workspace 下的 Member 查看、评论、一起编辑，还可以指定给某个人进行访问和协作，只需要邀请对方成为 Guest 就行了。</p>
-</li>
-</ol>
-<p>说到这可能你会觉得这些 Notion 能做的事情，别的软件也能做到，比如我们可以用 Typora 或是熊掌记写文章，用 Quip 做笔记，用 Trello 管理项目，用 SnippetsLab 收集代码片段，用 MoneyPro 记账，用 Airtable 做数据库，等等……而且人家可能做得会更专业化。</p>
-<p>我是这么认为的，如果你厌倦了在各个软件里切换来切换去的找东西，如果你觉得需要一款产品尽可能的把所有的东西记录在一起的话，那么就试试 Notion 吧，可能真的没有别的更好的选择了，至少到目前为止我还没有发现，可能 Coda 未来有这个趋势，不过它现在只有 Web 端，暂不考虑。况且市面上其它产品都不能像 Notion 一样把所有信息像网页一样组织在一起，这种方式来带的高效我想是不言而喻的。</p>
-<p>那么是不是有了 Notion 我就完全抛开了其它产品呢？也不是，至少目前还不行。我从去年开始逐步把以前在 Quip、Google Docs、石墨文档等平台的数据渐渐迁移到 Notion，但是有些东西没法迁移，比如一些大的表格文档，Notion 的表格做的还比较基础，当然本身定位就不是要满足办公表格的需求。</p>
-<p>前阵子我和老婆在 Notion 里面共同完成了婚礼和蜜月计划的准备，我们在一起往里面添加 To-do List，贴上从 Pinterest 上找到的婚礼布置图片，蜜月之旅的目的地和行程安排，游记信息，交通信息，飞行计划，预算开支，购物清单，行李清单等等，Notion 的协作功能让这种事务不再只是某个人的工作，而是两个人可以一起更加高效方便地完成哦。</p>
-<figure data-type="image" tabindex="2"><img src="https://i.loli.net/2019/10/08/xYRHqJ5euTtvzN4.jpg" alt=""></figure>
-<h1 id="邀请奖励">邀请奖励</h1>
-<p>目前 Notion 是支持免费使用的，但是免费计划限制了 1000 个 Blocks，如果做为主力记录工具的话，可能很快就用完了，我现在使用的是个人版按年订阅计划，$48 一年，如果按月付费则是 $5 一月。团队版是每月每个人 $8，团队版和个人版区别就是团队版可以添加 Member，个人版只能你自个儿玩，但是不限制你添加访客。</p>
-<p>如果我的这篇文章对你有帮助，你可以考虑使用我的注册邀请链接，这样你将会获得 $10 的现金奖励，可用于订阅付费计划，与此同时我也将会获得 $5 的奖励，谢谢你。</p>
-<p><a href="https://www.notion.so/?r=21704c78732642cc81cba14670db77d9">https://www.notion.so/?r=21704c78732642cc81cba14670db77d9</a></p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[又建了一个博客站点]]></title>
@@ -54,11 +23,5 @@
         <link href="https://gentleming.github.io/Y-coffee/post/SkNneSc9d">
         </link>
         <updated>2019-04-17T12:25:37.000Z</updated>
-        <content type="html"><![CDATA[<p>花了点时间，在全球最大的同性交友网站 Github 上，用 Pages 服务建立一个静态博客站点。又花了几十块 RMB 在 Godaddy 上买了域名 <a href="www.gentleming.me">gentleming.me</a>，算是搭建了一个小博客网站。</p>
-<p>为什么要说又呢？</p>
-<p>其实几年我用 Hexo 在 Github 上建过一个博客，当时买了域名 gentleming.com，嗯，当时这个域名没有被人注册，现在只能从域名商购买了，价格不划算，而且 .me 的域名也挺酷的，所以这次就用 <a href="www.gentleming.me">gentleming.me</a>了。</p>
-<p>上次搭了博客，就搁置在那，没写几篇文章，最后就没有最后了。这次重新建博客是因为发现了 <a href="https://gridea.dev/">Gridea</a>，这是一个可以在 Mac 或 Windows 上同步 Github Pages 的博客管理、写作工具，使用下来我觉得非常好用 👍，简单方便，设计又好看，于是乎重新点燃了我写博客的激情，ok，那么就希望这次能坚持下去吧。</p>
-<p>重新找回协作的乐趣。</p>
-]]></content>
     </entry>
 </feed>
