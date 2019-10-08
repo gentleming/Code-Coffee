@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gentleming.github.io/Y-coffee-Gridea</id>
     <title>Y-Coffee</title>
-    <updated>2019-10-08T03:09:04.667Z</updated>
+    <updated>2019-10-08T03:35:10.798Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gentleming.github.io/Y-coffee-Gridea"/>
     <link rel="self" href="https://gentleming.github.io/Y-coffee-Gridea/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://gentleming.github.io/Y-coffee-Gridea/post/d1JJ95e1W">
         </link>
         <updated>2019-04-29T02:05:54.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="https://i.loli.net/2019/08/16/Xqj7nzxSElOi31P.jpg"></a></p>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2019/08/16/Xqj7nzxSElOi31P.jpg" alt=""></figure>
 <p>2018 年我开始把 Notion 做为我日常工作、学习和生活的主力记录工具，我认为 Notion 是 2018 带给我惊喜最多的产品之一，下面是使用 Notion 这么久之后的一些看法观点和使用心得。</p>
 <p>我认为 Notion 相对其它笔记工具有这么几点特色：</p>
 <ol>
@@ -41,7 +41,7 @@
 <p>我是这么认为的，如果你厌倦了在各个软件里切换来切换去的找东西，如果你觉得需要一款产品尽可能的把所有的东西记录在一起的话，那么就试试 Notion 吧，可能真的没有别的更好的选择了，至少到目前为止我还没有发现，可能 Coda 未来有这个趋势，不过它现在只有 Web 端，暂不考虑。况且市面上其它产品都不能像 Notion 一样把所有信息像网页一样组织在一起，这种方式来带的高效我想是不言而喻的。</p>
 <p>那么是不是有了 Notion 我就完全抛开了其它产品呢？也不是，至少目前还不行。我从去年开始逐步把以前在 Quip、Google Docs、石墨文档等平台的数据渐渐迁移到 Notion，但是有些东西没法迁移，比如一些大的表格文档，Notion 的表格做的还比较基础，当然本身定位就不是要满足办公表格的需求。</p>
 <p>前阵子我和老婆在 Notion 里面共同完成了婚礼和蜜月计划的准备，我们在一起往里面添加 To-do List，贴上从 Pinterest 上找到的婚礼布置图片，蜜月之旅的目的地和行程安排，游记信息，交通信息，飞行计划，预算开支，购物清单，行李清单等等，Notion 的协作功能让这种事务不再只是某个人的工作，而是两个人可以一起更加高效方便地完成哦。</p>
-<figure data-type="image" tabindex="1"><img src="https://upload-images.jianshu.io/upload_images/28344-3cfc47acf8dc29b2.png" alt=""></figure>
+<figure data-type="image" tabindex="2"><img src="https://i.loli.net/2019/10/08/xYRHqJ5euTtvzN4.jpg" alt=""></figure>
 <h1 id="邀请奖励">邀请奖励</h1>
 <p>目前 Notion 是支持免费使用的，但是免费计划限制了 1000 个 Blocks，如果做为主力记录工具的话，可能很快就用完了，我现在使用的是个人版按年订阅计划，$48 一年，如果按月付费则是 $5 一月。团队版是每月每个人 $8，团队版和个人版区别就是团队版可以添加 Member，个人版只能你自个儿玩，但是不限制你添加访客。</p>
 <p>如果我的这篇文章对你有帮助，你可以考虑使用我的注册邀请链接，这样你将会获得 $10 的现金奖励，可用于订阅付费计划，与此同时我也将会获得 $5 的奖励，谢谢你。</p>
