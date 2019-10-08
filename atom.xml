@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gentleming.github.io/Y-coffee</id>
     <title>Y Coffee</title>
-    <updated>2019-10-08T05:10:06.921Z</updated>
+    <updated>2019-10-08T05:22:27.093Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gentleming.github.io/Y-coffee"/>
     <link rel="self" href="https://gentleming.github.io/Y-coffee/atom.xml"/>
-    <subtitle>咖啡爱好者</subtitle>
+    <subtitle>互联网产品经理 金融 理财 投资 咖啡爱好者</subtitle>
     <logo>https://gentleming.github.io/Y-coffee/images/avatar.png</logo>
     <icon>https://gentleming.github.io/Y-coffee/favicon.ico</icon>
     <rights>All rights reserved 2019, Y Coffee</rights>
@@ -58,7 +58,7 @@
 <p>为什么要说又呢？</p>
 <p>其实几年我用 Hexo 在 Github 上建过一个博客，当时买了域名 gentleming.com，嗯，当时这个域名没有被人注册，现在只能从域名商购买了，价格不划算，而且 .me 的域名也挺酷的，所以这次就用 <a href="www.gentleming.me">gentleming.me</a>了。</p>
 <p>上次搭了博客，就搁置在那，没写几篇文章，最后就没有最后了。这次重新建博客是因为发现了 <a href="https://gridea.dev/">Gridea</a>，这是一个可以在 Mac 或 Windows 上同步 Github Pages 的博客管理、写作工具，使用下来我觉得非常好用 👍，简单方便，设计又好看，于是乎重新点燃了我写博客的激情，ok，那么就希望这次能坚持下去吧。</p>
-<p>封面图是 Gridea 的截图，感兴趣的同学可以去用用看，免费的。</p>
+<p>重新找回协作的乐趣。</p>
 ]]></content>
     </entry>
 </feed>
