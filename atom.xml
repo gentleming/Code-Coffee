@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gentleming.github.io</id>
     <title>Y-Coffee</title>
-    <updated>2019-09-27T12:03:12.811Z</updated>
+    <updated>2019-10-08T01:26:01.853Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gentleming.github.io"/>
     <link rel="self" href="https://gentleming.github.io/atom.xml"/>
-    <subtitle>互联网人</subtitle>
+    <subtitle>咖啡爱好者</subtitle>
     <logo>https://gentleming.github.io/images/avatar.png</logo>
     <icon>https://gentleming.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Y-Coffee</rights>
