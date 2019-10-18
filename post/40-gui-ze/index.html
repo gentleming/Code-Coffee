@@ -1,7 +1,7 @@
-
+<!DOCTYPE html>
 <html>
   <head lang="zh">
-   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
 <meta content="telephone=no" name="format-detection"/>
@@ -9,7 +9,7 @@
 <meta name="description" content="互联网产品经理 金融 理财 投资 咖啡爱好者">
 <meta http-equiv="Access-Control-Allow-Origin" content="*">
 
-<title>Y Coffee</title>
+<title>40% 规则 | Y Coffee</title>
 <link href="https://gentleming.github.io/Y-coffee/styles/main.css" type="text/css" rel="stylesheet"/>
 <link rel="stylesheet" href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css"/>
 <script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
@@ -52,7 +52,7 @@ function pjax() {
   </head>
 
   <body>
-    <div class="header">
+     <div class="header">
       <div class="logo_title">
 		  
         <div class="title animated fadeInDown"><img id="img1" style="display:inline-block;" src="https://gentleming.github.io/Y-coffee/images/avatar.png"/>
@@ -238,71 +238,186 @@ var r = 0;
 
 </style>
 
-
     <div class="main" id="pjax-container">
       <div class="main-inner">
 
 
 <div class="content">
-	
-	
-  <div class="list_with_title">
-
-    <div class="listing_title">2019</div>
-
-	  
-    <div class="listing">
-      <div class="listing-item">
-		  
-                                
-        <div class="listing_post"><a href="https://gentleming.github.io/Y-coffee/post/40-gui-ze" title="40% 规则" >40% 规则</a>
-
-          <div class="post_date"><span class="date">2019-10-18</span>
-
-          </div>
-
-        </div>
- 
-                            
-                                
-        <div class="listing_post"><a href="https://gentleming.github.io/Y-coffee/post/d1JJ95e1W" title="我是如何使用 Notion 的" >我是如何使用 Notion 的</a>
-
-          <div class="post_date"><span class="date">2019-04-29</span>
-
-          </div>
-
-        </div>
- 
-                            
-                                
-        <div class="listing_post"><a href="https://gentleming.github.io/Y-coffee/post/SkNneSc9d" title="又建了一个博客站点" >又建了一个博客站点</a>
-
-          <div class="post_date"><span class="date">2019-04-17</span>
-
-          </div>
-
-        </div>
- 
-                            
-      </div>
 
 
-		
-		
-		
-    </div>
 
 
+
+
+  <div class="post_page" >
+
+<div class="post">
+  <div class="post_title sm_margin">
+    <h2><a>40% 规则</a>
+
+
+
+    </h2>
   </div>
+  
+<script>
+function lan(){
+	if (document.getElementById("lan").innerText == "繁"){
+		var s=document.getElementById("tongwenlet_cn");
+		if(s != null){
+		document.body.removeChild(s);
+		}
+		var s = document.createElement("script");
+		s.language = "javascript";
+		s.type = "text/javascript";
+		s.src = "https://git.oschina.net/runningcheese/JiathisQR.js/raw/master/bookmarklet_tw.js";
+		s.id = "tongwenlet_cn";
+		document.body.appendChild(s);
+		document.getElementById("lan").innerHTML = "简"
+	}
+	else if(document.getElementById("lan").innerText == "簡"){
+		var s=document.getElementById("tongwenlet_cn");
+		if(s != null){
+		document.body.removeChild(s);
+		}
+		var s = document.createElement("script");
+		s.language = "javascript";
+		s.type = "text/javascript";
+		s.src = "https://git.oschina.net/runningcheese/JiathisQR.js/raw/master/bookmarklet_cn.js";
+		s.id = "tongwenlet_cn";
+		document.body.appendChild(s);
+		document.getElementById("lan").innerHTML = "繁"
+		}
+}
+
+function change(){	
+    var rand = Math.random()*1+1;
+    var num = window.getComputedStyle(document.getElementsByName("show")[0],undefined).fontSize;
+	num = num.slice(0,-2); 
+    document.getElementById("show").style.fontSize = num - rand +'px';
+}
+</script>
+
+  <div class="post_details">
+    <div class="info"><i class="fa fa-clock-o"></i>
+<span class="date_info">2019-10-18</span>
+<i class="fa fa-eye"></i>
+
+<span class="date_info"><span id="busuanzi_value_page_pv"></span> Views</span>
+
+<i class="fa fa-bookmark-o"></i>
+<span class="tags_info weaklink">
+	
+
+</span>
+<span>2 min read</span>
+&nbsp
+&nbsp
+<!-- <i class="fa fa-share"></i>
+<a title="QR code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://gentleming.github.io/Y-coffee/post/40-gui-ze"><i class="fa fa-qrcode"></i></a>
+<a title="qq share" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://gentleming.github.io/Y-coffee/post/40-gui-ze&sharesource=qzone&title=40% 规则&pics=https://blog.blinkstar.cn/images/avatar.png&summary="><i class="fa fa-qq"></i></a>
+<a title="weibo share" target="_blank" href="https://service.weibo.com/share/share.php?url=https://gentleming.github.io/Y-coffee/post/40-gui-ze&sharesource=weibo&title=40% 规则 + " - " + &pic="https://blog.blinkstar.cn/images/avatar.png"><i class="fa fa-weibo"></i></a>
+&nbsp
+&nbsp
+<a id="daxiao" href="javascript:void(0);" onclick="change();" title="调整字体大小"><i class="fa fa-font"></i></a>
+&nbsp
+&nbsp
+<a id="lan" href="javascript:void(0);" onclick="lan();" title="调整简繁体">繁</a> -->
+
+</div>
+  </div>
+
+  <div class="post_content markdown">
+  <!-- <img id="mememe" src="//source.unsplash.com/800x400/?arts,weather"> -->
+    <div name="show" id="show">
+	<p class="md_block"><span class="md_line md_line_start md_line_end"><p>Here’s the 40% rule and it is aimed at SAAS companies:</p>
+<blockquote>
+<p>Your annual revenue growth rate + your operating margin should equal 40%</p>
+</blockquote>
+<p>So, if you are growing 100% year over year, you can lose money at a rate of 60% of your revenues</p>
+<p>If you are growing 40% year over year, you should be breaking even</p>
+<p>If you are growing 20% year over year, you should have 20% operating margins</p>
+<p>If you are not growing, you should have 40% operating margins</p>
+<p>If your business is declining 10% year over year, you should have 50% operating margins</p>
+<p>I have never seen growth and profitability so nicely tied together in a simple rule like this. I’ve always felt intuitively that it’s OK to lose money if you are growing fast, and you must make money and increasing amounts of it as your growth slows. Now there’s a formula for that instinct. And I like that very much.</p>
+<p>SaaS 创业公司有一条40％规则：</p>
+<blockquote>
+<p>年收入增长率 + 营业利润率 应该等于40％。</p>
+</blockquote>
+<p>如果你的年增长率达到100％，那么可以承受60％的亏损。</p>
+<p>如果年增长率为40％，你应该收支平衡。</p>
+<p>如果增长率为20％，你应该有20％的营业利润率。</p>
+<p>如果没有增长，你应该有40％的营业利润率。</p>
+<p>如果业务下降10％，你应该有50％的营业利润率。</p>
+<p>我从来没有见过一个如此简单的规则。我总是觉得如果你快速增长，就可以接受赔钱。随着增长放缓，你必须赚钱并增加利润。现在有这样一个简单的公式，我非常喜欢。</p>
+<p>来源：<a href="https://avc.com/2015/02/the-40-rule/">The 40% Rule </a></p>
+</span></p></div>
+	<br>
+	<hr>
+<div style="color: #ccc;font-size:14px;"><i class="fa fa-user"></i> 本文由<a rel="license" href="/">Y Coffee</a>创作</div>	
+<div style="color: #ccc;font-size:14px;"><i class="fa fa-cc"></i> 该文章采用<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可，转载请注明出处。</div>
+<div style="color: #ccc;font-size:14px;"><i class="fa fa-clock-o"></i> 发布时间为：2019-10-18</div>    
+	 <p class="md_block">
+    <div class="reward"><div class="reward-button">赏 <span class="reward-code"> <span class="alipay-code"> <img class="alipay-img" src="https://gentleming.github.io/Y-coffee/media/images/alipay.png"><b>支付宝扫码打赏</b> </span> <span class="wechat-code"> <img class="wechat-img" src="https://gentleming.github.io/Y-coffee/media/images/wechat.png"><b>微信打赏</b> </span> </span></div></div>
+<div style="text-align:center;color: #ccc;font-size:14px;">如果这篇文章对您有用，就请我喝杯咖啡吧 ☕️</div>    
+</p> 
+</div>
+</div>
+
+<style type="text/css">
+#mememe {
+	border:3px;
+	border-radius:5px;
+    background-repeat: no-repeat;
+    height: 100%;
+	width: 100%;
+	display: inline-block;
+	border-radius:5px; 
+}
+</style>
+
+<script>
+var link = "" ;
+$("img").each( (i,o) => {
+	var o = $(o);
+	if( o.attr("src").indexOf("sinaimg") > 0 || o.attr("src").indexOf("qpic") > 0 || o.attr("src").indexOf("baidu") > 0 || o.attr("src").indexOf("sinaimg") > 0){
+		o.attr("referrerpolicy","no-referrer");
+		link = o.attr("src");
+		o.attr("src",link);
+	}
+});
+</script>
+
+<div style="width:100%;overflow:hidden">
+
+          <div style="float:right;text-align:right;color:#ccc;font-size:18px;width:50%;">
+            下一篇
+            <a href="https://gentleming.github.io/Y-coffee/post/d1JJ95e1W">
+              <h3 class="post-title">
+                我是如何使用 Notion 的
+              </h3>
+            </a>
+          </div>
+
+
 
 </div>
 
+<div class="doc_comments">
+
+</div>
+
+  </div>
+</div>
 
 
       </div>
+<div class="toc-container">
 
+</div>
     </div>
-    <div class="footer">
+	
+   <div class="footer">
 <div class="site_footer_wrap"><div class="site_footer">
 
       <div class="mysocials"><div class="my_socials">
